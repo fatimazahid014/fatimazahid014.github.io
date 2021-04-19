@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.82.0" /><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>OS_Fi site</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Responsive card-based &amp; code-light Hugo theme">
+		<meta property="og:title" content="OS_Fi site" />
+<meta property="og:description" content="Responsive card-based &amp; code-light Hugo theme" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/" />
+
+
+		<meta itemprop="name" content="OS_Fi site">
+<meta itemprop="description" content="Responsive card-based &amp; code-light Hugo theme">
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="OS_Fi site"/>
+<meta name="twitter:description" content="Responsive card-based &amp; code-light Hugo theme"/>
+	<style>
+	a {
+	color: #77baff;
+}
+
+blockquote {
+	border-color: #77baff;
+}
+
+mark {
+	background-color: #77baff;
+}
+
+.logo:hover {
+	color: #77baff;
+}
+
+.main-nav__btn {
+	fill: #77baff;
+}
+
+.toc {
+	color: #77baff;
+}
+
+.share__icon {
+	fill: #77baff;
+	stroke: #77baff;
+}
+a {
+	color: #9ccc6c;
+}
+
+blockquote {
+	border-color: #9ccc6c;
+}
+
+mark {
+	background-color: #9ccc6c;
+}
+
+.logo:hover {
+	color: #9ccc6c;
+}
+
+.main-nav__btn {
+	fill: #9ccc6c;
+}
+
+.toc {
+	color: #9ccc6c;
+}
+
+.share__icon {
+	fill: #9ccc6c;
+	stroke: #9c cc6c;
+}
+a {
+	color: #ff5562;
+}
+
+blockquote {
+	border-color: #ff5562;
+}
+
+mark {
+	background-color: #ff5562;
+}
+
+.logo:hover {
+	color: #ff5562;
+}
+
+.main-nav__btn {
+	fill: #ff5562;
+}
+
+.toc {
+	color: #ff5562;
+}
+
+.share__icon {
+	fill: #ff5562;
+	stroke: #ff5562;
+}
+
+a {
+	color: #bc7de8;
+}
+
+blockquote {
+	border-color: #bc7de8;
+}
+
+mark {
+	background-color: #bc7de8;
+}
+
+.logo:hover {
+	color: #bc7de8;
+}
+
+.main-nav__btn {
+	fill: #bc7de8;
+}
+
+.toc {
+	color: #bc7de8;
+}
+
+.share__icon {
+	fill: #bc7de8;
+	stroke: #bc7de8;
+}
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: left;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+@media screen and (min-width: 480px) {
+	ol,
+	ul,
+	dl {
+		padding-left: 2.5rem;
+	}
+}
+
+blockquote {
+	padding: 0 1rem;
+	border-left: 5px solid #f8ae00;
+}
+
+blockquote footer {
+	text-align: right;
+}
+
+pre {
+	padding: 1.25rem;
+	background-color: #111;
+}
+
+code {
+	padding: 1px 3px;
+	background-color: #111;
+	border-radius: 2px;
+}
+
+pre code {
+	padding: 0;
+	background-color: inherit;
+	border-radius: 0;
+}
+
+kbd {
+	font-weight: 700;
+}
+
+figure {
+	display: inline-block;
+}
+
+figcaption {
+	padding: .5rem;
+	background-color: #111;
+}
+
+img {
+	max-width: 100%;
+}
+
+table {
+	width: 100%;
+	margin-bottom: 1rem;
+	border-spacing: 0;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+
+td,
+th {
+	padding: .3125rem .625rem;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	font-weight: 700;
+}
+
+.mt {
+	margin-top: 1rem;
+}
+
+.mb {
+	margin-bottom: 1rem;
+}
+
+.mla {
+	margin-left: auto;
+}
+
+.tal {
+	text-align: left;
+}
+
+.tar {
+	text-align: right;
+}
+
+.btn {
+	background-color: #111;
+	border-radius: 3px;
+}
+
+.btn:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+/* Header */
+.header {
+	margin: 0 0 .3125rem;
+	overflow: auto;
+	background-color: #2a2a2a;
+	border-color: #333;
+	border-style: solid;
+	border-width: 0 0 1px;
+}
+
+.block {
+	padding: .875rem;
+	margin: .1875rem 0;
+	color: #eee;
+	background-color: #2a2a2a;
+	border-color: #333;
+	border-style: solid;
+	border-width: 1px 0;
+}
+
+@media screen and (min-width: 480px) {
+	.header {
+		margin: 0 .3125rem .3125rem;
+		border-width: 0 1px 1px;
+	}
+
+	.block {
+		margin: .625rem .3125rem;
+		border-width: 1px;
+	}
+}
+
+.logo {
+	display: inline-block;
+	padding: .625rem .875rem;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.logo:hover {
+	color: #f8ae00;
+	text-decoration: none;
+}
+
+.js .logo {
+	float: left;
+}
+
+/* Menu */
+.main-menu {
+	display: block;
+	font-size: 0;
+	font-weight: 700;
+}
+
+.no-js .main-nav__btn {
+	display: none;
+}
+
+.main-nav__btn {
+	display: block;
+	float: right;
+	padding: 0;
+	font-size: 1em;
+	cursor: pointer;
+	background-color: #2a2a2a;
+	border: 0;
+	border-left: 1px solid #333;
+	outline: 0;
+	fill: #f8ae00;
+}
+
+.main-nav__btn:focus,
+.main-nav__btn:hover {
+	color: #000;
+}
+
+.main-nav__btn-box {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 42px;
+	height: 42px;
+}
+
+:focus > .main-nav__btn-box {
+	box-shadow: inset 0 0 1px 3px #4285f4;
+}
+
+button:not(:-moz-focusring):focus > .main-nav__btn-box {
+	box-shadow: none;
+}
+
+.main-nav__btn:focus,
+.main-nav__btn-box:focus {
+	outline: none;
+}
+
+.main-nav__btn .icon-menu__burger {
+	display: inline;
+}
+
+.main-nav__btn .icon-menu__x {
+	display: none;
+}
+
+.main-nav__btn--active .icon-menu__burger {
+	display: none;
+}
+
+.main-nav__btn--active .icon-menu__x {
+	display: inline;
+}
+
+.main-nav__list {
+	font-size: 0;
+}
+
+.main-nav__item {
+	font-size: 1rem;
+	font-weight: 700;
+	border-top: 1px solid #333;
+}
+
+.main-nav__item:hover {
+	background-color: #444;
+}
+
+.main-nav__item--active {
+	padding: .625rem .875rem;
+}
+
+.main-nav__item--active:hover {
+	background-color: transparent;
+}
+
+.main-nav__link {
+	display: block;
+	padding: .625rem .875rem;
+}
+
+.main-nav__list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.js .main-nav__list {
+	display: none;
+}
+
+.js .main-nav__btn {
+	display: block;
+}
+
+.main-nav__list.main-nav__list--active {
+	display: block;
+	width: 100%;
+	clear: both;
+	background-color: #2a2a2a;
+}
+
+@media (min-width: 920px) {
+	.header {
+		display: flex;
+	}
+
+	.logo {
+		display: inline-block;
+	}
+
+	.js .main-nav__list {
+		display: block;
+	}
+
+	.js .main-nav__btn {
+		display: none;
+	}
+
+	.main-nav__btn {
+		display: none;
+	}
+
+	.main-nav {
+		display: flex;
+	}
+
+	.main-nav__item {
+		display: inline-block;
+		border: 0;
+	}
+
+	.main-nav__item--active {
+		padding: .625rem .625rem .5rem;
+		border-bottom: 2px solid #888;
+	}
+
+	.main-nav__link {
+		padding: .625rem .625rem .5rem;
+		border-bottom: 2px solid transparent;
+	}
+
+	.main-nav__link:hover {
+		text-decoration: none;
+		border-color: #666;
+	}
+
+	.main-nav--right {
+		margin-left: auto;
+	}
+
+	.main-nav__list.main-nav__list--active {
+		position: initial;
+		border: 0;
+	}
+}
+
+/* Taxonomies */
+.page {
+	margin-bottom: .3125rem;
+}
+
+.page__title {
+	margin-bottom: 0;
+}
+
+.page__content {
+	margin-top: 1rem;
+}
+
+.page__content--notitle {
+	margin: 0;
+}
+
+.page__content p:last-child {
+	margin-bottom: 0;
+}
+
+/* Cards UI */
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	display: flex;
+	width: 100%;
+}
+
+.card:first-child {
+	border-top: 1px solid #333;
+}
+
+.card__box {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0;
+	border-width: 0 0 1px;
+}
+
+@media screen and (min-width: 480px) {
+	.card {
+		padding: .3125rem;
+	}
+
+	.card:first-child {
+		border: 0;
+	}
+
+	.card__box {
+		border-width: 1px;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.card--2col {
+		width: 50%;
+	}
+
+	.card--3col {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 860px) {
+	.card--3col {
+		width: 33.333%;
+	}
+}
+
+/* Entry */
+.title-excerpt {
+	font-size: 1.25rem;
+}
+
+.entry__featured {
+	width: 100%;
+	min-height: 1px; /* Workaround for IE11 flexbox img height issue https://github.com/philipwalton/flexbugs/issues/75 */
+	text-align: center;
+	background-color: #1f1f1f;
+}
+
+.featured__figcaption {
+	width: 100%;
+	padding: 1rem;
+	text-align: left;
+	background-color: #111;
+}
+
+.featured__credit::before {
+	content: "© ";
+}
+
+.featured__credit {
+	font-size: .875rem;
+	font-style: normal;
+	color: #888;
+}
+
+.entry__content {
+	flex: 1 0 auto;
+	margin: 0;
+	overflow: auto;
+	color: #c3c3c3;
+}
+
+.entry__content p:last-child {
+	margin-bottom: 0;
+}
+
+.entry__meta {
+	font-size: .875rem;
+	color: #999;
+}
+
+.entry__meta-published,
+.entry__meta-lastmod {
+	display: block;
+}
+
+.entry__tags {
+	margin-top: 2rem;
+}
+
+.entry__tag {
+	display: inline-block;
+	padding: .25rem .5rem;
+	margin: .25rem;
+	line-height: 1.5;
+}
+
+.toc {
+	padding: .5rem;
+	margin-bottom: 1rem;
+	color: #f8ae00;
+	list-style: none;
+	background-color: #111;
+}
+
+.toc[open] {
+	color: #fff;
+}
+
+.toc__title {
+	padding: .25rem;
+	font-weight: 700;
+}
+
+.toc nav {
+	padding: .5rem 0 .5rem .5rem;
+}
+
+.toc ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.toc ul ul ul a {
+	padding-left: 25px;
+}
+
+.toc ul ul ul ul a {
+	padding-left: 45px;
+}
+
+.toc ul ul ul ul ul a {
+	padding-left: 65px;
+}
+
+.toc ul ul ul ul ul ul a {
+	padding-left: 85px;
+}
+
+.entry__footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 1.5rem;
+}
+
+.entry__tags {
+	display: flex;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+	margin: 0 -.25rem auto;
+}
+
+.entry__share {
+	display: flex;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+	margin: 0 -.25rem auto;
+}
+
+@media screen and (min-width: 720px) {
+	.entry__tags {
+		flex: 1 0 65%;
+		justify-content: flex-start;
+	}
+
+	.entry__share {
+		flex: 1 0 35%;
+		justify-content: flex-end;
+	}
+}
+
+.share__link {
+	margin: .25rem;
+	font-size: 0;
+}
+
+.share__link:hover {
+	margin: .25rem;
+	text-decoration: none;
+}
+
+.share__icon {
+	width: 32px;
+	height: 32px;
+	fill: #f8ae00;
+	stroke: #f8ae00;
+}
+
+.share__icon:hover {
+	fill: #fff;
+	stroke: #fff;
+}
+
+.breadcrumb {
+	padding: .875rem;
+	margin: .1875rem 0 -.1875rem;
+	color: #c3c3c3;
+	border-width: 1px 0 0;
+}
+
+.breadcrumb--separated {
+	margin: .1875rem 0 .3125rem;
+	border-width: 1px 0;
+}
+
+@media screen and (min-width: 480px) {
+	.breadcrumb {
+		margin: .625rem .3125rem -.625rem;
+		border-width: 1px 1px 0;
+	}
+
+	.breadcrumb--separated {
+		margin: .625rem .3125rem .3125rem;
+		border-width: 1px;
+	}
+}
+
+.breadcrumb__list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.breadcrumb__item {
+	display: flex;
+}
+
+.breadcrumb__item::after {
+	display: block;
+	margin: 0 .3125rem;
+	content: "›";
+}
+
+.alignleft {
+	float: left;
+	margin: 1rem 1rem 1rem 0;
+}
+
+.alignright {
+	float: right;
+	margin: 1rem 0 1rem 1rem;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Authorbox */
+.author {
+	display: flex;
+	align-items: flex-start;
+}
+
+.author__avatar {
+	margin-right: .875rem;
+	margin-bottom: 0;
+}
+
+.author__img {
+	border-radius: 50%;
+}
+
+.author__body {
+	flex: 1;
+}
+
+.author__name {
+	margin-bottom: .625rem;
+	font-weight: 700;
+}
+
+/* Comments */
+.comments {
+	margin-top: .625rem;
+	margin-bottom: .625rem;
+}
+
+/* Related */
+.related {
+	margin-top: .625rem;
+}
+
+/* Pagination */
+.pagination {
+	margin: .3125rem 0;
+	text-align: center;
+	background-color: #2a2a2a;
+}
+
+@media screen and (min-width: 480px) {
+	.pagination {
+		margin: .3125rem .3125rem .625rem;
+	}
+}
+
+.pagination__item {
+	display: inline-block;
+	padding: .25rem .625rem;
+	font-weight: 700;
+	border: 1px solid;
+}
+
+.pagination__item--gap {
+	color: #888;
+	cursor: default;
+	border-color: #888;
+}
+
+/* 404 */
+.page404__title {
+	font-size: 2.25rem;
+	font-weight: 700;
+}
+
+.page404__lead {
+	margin-bottom: 2rem;
+	font-size: 1.5rem;
+}
+
+.page404__link {
+	font-size: 1.5rem;
+}
+
+/* Empty state */
+.empty__icon {
+	margin-bottom: 2rem;
+	font-size: 3.5rem;
+}
+
+.empty__tip {
+	padding: .5rem;
+	margin: 4rem 0 0;
+	background-color: #202020;
+}
+
+/* Footer */
+.footer {
+	padding: .625rem 0;
+	margin: .3125rem 0 0;
+	font-size: .8125rem;
+	color: #888;
+	text-align: center;
+	border-top: 2px solid #333;
+}
+
+.footer__social {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: .5rem;
+}
+
+.social__link {
+	margin: .25rem;
+	font-size: 0;
+	background-color: #2a2a2a;
+	border: 1px solid #333;
+	fill: #999;
+	stroke: #999;
+}
+
+.social__link:hover {
+	fill: #c3c3c3;
+	stroke: #c3c3c3;
+}
+
+.social__icon {
+	width: 32px;
+	height: 32px;
+}
+
+.footer__links {
+	margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 480px) {
+	.footer {
+		margin: .3125rem .3125rem 0;
+	}
+}
+/* Print */
+@media print {
+	.entry__content a,
+	.entry__meta a,
+	.entry__tag {
+		color: #000;
+		text-decoration: underline;
+	}
+
+	.logo,
+	.block,
+	.entry__title,
+	.entry__title-link,
+	.meta-categories__link,
+	.entry__meta,
+	.entry__content {
+		color: #000;
+	}
+
+	.main-nav,
+	.comments,
+	.entry__toc,
+	.related,
+	.footer__copyright-credits {
+		display: none;
+	}
+
+	.header,
+	.block {
+		border: 0;
+	}
+
+	mark {
+		background-color: #25a;
+	}
+
+	blockquote {
+		border-color: #000;
+	}
+}
+/* CSS Reset (based on Bootstrap Reboot v4.3.1 | MIT) */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	color: #ddd;
+	background-color: #1b1b1b;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+	outline: 0 !important;
+}
+
+hr {
+	margin: 1.25rem 0;
+	color: inherit;
+	background-color: currentColor;
+	border: 0;
+	border-top: 1px solid #444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.75rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.375rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1.125rem;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+abbr[title] {
+	text-decoration: none;
+	cursor: help;
+	border-bottom: 1px dotted #c3c3c3;
+}
+
+address {
+	margin-bottom: 1rem;
+	font-style: normal;
+	line-height: inherit;
+}
+
+ol,
+ul {
+	padding-left: 2rem;
+}
+
+ol,
+ul,
+dl {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+	margin-bottom: 0;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin-bottom: .5rem;
+	margin-left: 0;
+}
+
+blockquote {
+	margin: 0 0 1rem 1rem;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+small {
+	font-size: 0.875em;
+}
+
+sub,
+sup {
+	position: relative;
+	font-size: 0.75em;
+	line-height: 0;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -.25em;
+}
+
+sup {
+	top: -.5em;
+}
+
+a {
+	color: #f8ae00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a:not([href]),
+a:not([href]):hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+pre,
+code,
+kbd,
+samp {
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size: 1em;
+}
+
+pre {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	overflow: auto;
+}
+
+pre code {
+	font-size: inherit;
+	color: inherit;
+	word-break: normal;
+}
+
+code {
+	color: #e44;
+	word-wrap: break-word;
+}
+
+a > code {
+	color: inherit;
+}
+
+kbd {
+	padding: 0.125rem 0.1875rem;
+	color: #111;
+	background-color: #888;
+}
+
+kbd kbd {
+	padding: 0;
+	font-size: 1em;
+}
+
+figure {
+	margin: 0 0 1rem;
+}
+
+img {
+	vertical-align: middle;
+}
+
+svg {
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+caption {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	color: #6c757d;
+	text-align: left;
+	caption-side: bottom;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+
+button {
+	border-radius: 0;
+}
+
+button:focus {
+	outline: 1px dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+button,
+input {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+select {
+	word-wrap: normal;
+}
+
+[list]::-webkit-calendar-picker-indicator {
+	display: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+	cursor: pointer;
+}
+
+::-moz-focus-inner {
+	padding: 0;
+	border-style: none;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+	-webkit-appearance: textfield;
+}
+
+textarea {
+	overflow: auto;
+	resize: vertical;
+}
+
+fieldset {
+	min-width: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+legend {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+	line-height: inherit;
+	color: inherit;
+	white-space: normal;
+}
+
+mark {
+	background-color: #f8ae00;
+}
+
+progress {
+	vertical-align: baseline;
+}
+
+::-webkit-datetime-edit {
+	overflow: visible;
+	line-height: 0;
+}
+
+[type="search"] {
+	outline-offset: -2px;
+	-webkit-appearance: textfield;
+}
+
+::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+::-webkit-file-upload-button {
+	font: inherit;
+	-webkit-appearance: button;
+}
+
+output {
+	display: inline-block;
+}
+
+summary {
+	display: list-item;
+	cursor: pointer;
+}
+
+template {
+	display: none;
+}
+
+main {
+	display: block;
+}
+
+[hidden] {
+	display: none !important;
+}
+</style>
+	<link rel="stylesheet" href="/css/bundle.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	<link rel="icon" href="/icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="/icons/32.png" sizes="32x32" type="image/png">
+	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="OS_Hugo site">
+	<link rel="manifest" href="/manifest.json">
+</head>
+<body class="body kind-home">
+	<header class="header">
+	<a class="logo" href="/"> OS_Hugo site</a>
+	
+</header>
+	<div class="primary">
+	
+	<main class="main">
+			<div class="cards">
+					<div class="card card--2col" >
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/gitlink/">About Me</a></h1>
+	<div class="entry__content">I am currently studying <b>Computer Science</b>. I am a coder, web developer. I have interests in graphic designing as well. Cloud Computing was somehow field of my interest, 
+	but now I have lost the passion in this field and hence, I am much more inclined towards software developing. Here I have this website of mine for the same purpose. As far as my personal interests are concerned, 
+	I love reading articles, and that’s it!</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-18T11:47:11&#43;05:00">April 18, 2021</time>
+	</div>
+</article>
+					</div>
+					<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/link/">Profile/CV</a></h1>
+	<div class="entry__content">
+	<ul>
+   <li> <b> NAME: Fatima Zahid </li>
+  <li> <b> DEGREE STATUS:</b> Undergraduate – (BSCS) </li>
+  <li> <b> CURRENT ENROLLMENT:</b> Currently enrolled in CS courses at “School of Electrical Engineering and Computer Science”, National University of Sciences and Technology</li>
+  <li> <b> DEGREES EARNED:</b> Matriculation, FSC(Pre – Engineering)  </li>
+  <li> <b> CGPA:</b> 3.45 </li>
+  <li> <b> EXPERIENCE: </b>Free lancer, Graphic designing, Worked at upwork </li>
+  <li> <b> EXTRA CURRICULAR ACTIVIES:</b> Fond of doing debates  </li>
+  <li> <b> CERTIFICATIONS: </b>Coursera certificate for web development, Certification for winning National Level Debate Contest, Certification for learning basic Microsoft skills. </li> </ul></div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-18T09:41:35&#43;05:00">April 18, 2021</time>
+	</div>
+</article>
+					</div>
+					<div class="card card--2col" >
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/gitlink/"> GitLInk_ForCode</a></h1>
+	<div class="entry__content"> Here is the link to this working. Code is here. </b> <br>JUST GO!!! And CHECK IT OUT!!!!! <br>
+<br>
+                        <a href = "https://github.com/FatimaZahid/64-Bit-Operating-System.git" >GIT LINK FOR THE BUILDING OF 64 BIT - OS </a>
+ 	You can contact me through my contacts and socials on this site.</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-18T11:47:11&#43;05:00">April 18, 2021</time>
+	</div>
+</article>
+					</div>
+
+					<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/link/"> ABOUT WEBSITE </a></h1>
+	<div class="entry__content">
+	As related to my interests, I have developed a <b>64-Bit Operating System</b> recently, and this website is basically designed to let other people familiarize with the way this Operating System has been created. Much of the effort was needed. It is done through some of the softwares which need to keep running at the backend to get the desired task done</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-18T09:41:35&#43;05:00">April 18, 2021</time>
+	</div>
+</article>
+					</div>
+
+					<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/os/">64 - Bit Operating System</a></h1>
+                      <div class="entry__content"><b>64-bit OS</b> demands 64-bit CPU, and 64-bit applications require 64-bit OS and CPU. Support Windows 7, 8 Vista, XP, and, Linux. Windows XP Professional, 
+	Windows Vista, Windows 7, Windows 8,Windows 10, Linux, and Mac OS X. 32-bit systems limited to 3.2 GB of RAM 32 bit Windows.</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-18T08:39:16&#43;05:00">April 18, 2021</time>
+	</div>
+</article>
+					</div>
+					<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/kernel/">What is KERNEL?</a></h1>
+	<div class="entry__content">The kernel is a computer program at the core of a computer operating system that has complete control over everything in the system. It is <b>the portion of the operating system code 
+	that is always resident in memory, </b>and facilitates interactions between hardware and software components. On most systems, the kernel is one of the first programs loaded on startup (after the bootloader). 
+	It handles the rest of startup as well as memory, peripherals, and input/output (I/O) requests from software, translating them into data-processing instructions for the central processing unit.</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-18T08:38:04&#43;05:00">April 18, 2021</time>
+	</div>
+</article>
+					</div>
+					<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/software/">Software Used</a></h1>
+                      <div class="entry__content">Before starting work on an Operating System, <b>Docker and QEMU</b> had been set up. As docker needs to run at the backend for the whole time, unless and until desired OS is not created. 
+	Docker is basically an open source platform that is used to delver software in packages, called <b>containers</b>. So, for the built containers and images, it was kept running. Images were built through a procedure that involved starting of a docker desktop using <b>WSL2</b>, and 
+	then running that through the set of commands.Then a <b>docker file</b> was created that involved the  installations of the required files for building an image. As far as QEMU is concerned, it  is basically an <b>EMULATOR</b>, that is used to run <b>Operating System</b>. 
+	For virtualization, <b>QEMU</b> is used to emulate devices and certain privileged instructions and requires either the QEMU or KVM kernel modules and the host operating system to provide a virtual machine environment. It is typically used to run Windows and DOS applications on <b>x86-based Linux computers</b></div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-18T08:36:50&#43;05:00">April 18, 2021</time>
+	</div>
+</article>
+					</div>
+					<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/working/">WORKING</a></h1>
+	<div class="entry__content"> <ul>
+      <li>Initially x86 compatible OS was created which is referred to as <b> MultiBoot 2 </b> compliant. This OS had  been primarily written in C language. Assembly was also used for some specifications. Docker had provided a building  environment through built images. Dockerfile was generated. This file was involving all the 
+	items I needed to build an image. Then  a container was  opened through the running command of Docker on Windows, as I used windows for this purpose. This command would  take  us inside a virtual LINUX machine that would have access to many resources. After that coding in Assembly was done. Process began with the development of x86_64 folder. Then .asm file was created to have some of data that was to be added to  Operating System in binary. Multiboot 2 specifications were used. </li>
+<li>Another .asm file was also made, that was to serve as an entry point to the Operating System. After that, some of the files for configuration were needed. Linker file was there to link OS with multiboot header. That configuration file was  to be added to the iso file. ISO file is very important as OS has been recognized by USB through it. </li>
+
+</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-17T12:02:03&#43;05:00">April 17, 2021</time>
+	</div>
+</article>
+					</div>
+
+<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/working/">WORKING--02</a></h1>
+	<div class="entry__content"> <ul>
+<li>Another .asm file was also made, that was to serve as an entry point to the Operating System. After that, some of the files for configuration were needed. Linker file was there to link OS with multiboot header. That configuration file was  to be added to the iso file. ISO file is very important as OS has been recognized by USB through it. </li>
+<li>Then finally, for building an OS, final commands were written to the Makefile. All source files had been converted to object files through this file. Then by getting the directory of the file I was compiling, got that work done. <b> NASM</b> was used to compile the assembly code while changing the format to <b>elf64</b>.</li>
+<li>Then finally, some of the linakges were created using linker files. The purpose is to generate a kernel.iso file in dist folder, and thus by compiling the code based upon above explanation, <b>iso file</b> had been generated.  And as this was almost done, we could print any text on Emulator, that was initially added to the .asm file. I made to print “OK” through main.asm file.</li>
+</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-17T12:02:03&#43;05:00">April 17, 2021</time>
+	</div>
+</article>
+					</div>
+<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/working/">WORKING--03</a></h1>
+	<div class="entry__content"> <ul> 
+<li> Then based upon building of 64 bit OS, some of the string text was printed on console, with the help of emulator, by using coding in <b>C</b> language. For this “STACK” was used for linking to the C. Then some of the methodology was adopted to convert an OS to 64 bit. Then, to prove validation, and the exact working of OS, I got printed some text using C.</li>
+<li>Another .asm file was also made, that was to serve as an entry point to the Operating System. After that, some of the files for configuration were needed. Linker file was there to link OS with multiboot header. That configuration file was  to be added to the iso file. ISO file is very important as OS has been recognized by USB through it. </li>
+<li>Another .asm file was also made, that was to serve as an entry point to the Operating System. After that, some of the files for configuration were needed. Linker file was there to link OS with multiboot header. That configuration file was  to be added to the iso file. ISO file is very important as OS has been recognized by USB through it. </li>
+</ul>
+</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-17T12:02:03&#43;05:00">April 17, 2021</time>
+	</div>
+</article>
+					</div>
+
+<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/working/">Description - Paging</a></h1>
+	<div class="entry__content"> <ul>
+	<li> First of all, <b>Stack</b> was built through coding in .asm file so that C code can be executed on the base of that stack. Then for checking whether CPU is in long mode or not and for checking multiboot, code was implemented by comparing the corresponding values in EAX register. ERROR code is also there to compare and generate codes by moving to eax. </li>
+	 <li>In order to enter <b>64-bit long mode</b>, we implemented virtual memory by a process called “Paging”. In this process, by creating “PAGETABLES” virtual addresses are mapped to physical addresses. So, through coding, page tables were setup and thus enabled. To end up with 64 bit in long mode, Global Descriptor Table was accessed. Mean while a pointer to this global descriptor table was created.</li>
+</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-17T12:02:03&#43;05:00">April 17, 2021</time>
+	</div>
+</article>
+					</div>
+
+<div class="card card--2col" >
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/about-me/">Description - Paging </a></h1>
+                      <div class="entry__content"> <ul> 
+    <li> Then another file for 64-bit operation was made that was having that long mode start label. Then as the target is to print text for 64-bit OS. So, then printing message was shifted from 32 bit .asm file to 64 bit file. Then instead of printing that “OK”, I had to call a method write in C “main.c “ file that was involving printing of a string message in 64 bit mode. To define and to set the printing interface, another file “Print.h” was made, and it was imported to main.c  and print.c. Print.c was made to handle the format and implementation of code written in main.c. Then finally, C based source files were  converted to their respective object files in Makefile. Similarly C files were build.</li>
+<li> And it was all done!!! Then I had recompiled the code, and got my OS generated along with printing of my message through an Emulator: “QEMU” </li> </ul>  </div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-18T09:06:28&#43;05:00">April 18, 2021</time>
+	</div>
+</article>
+					</div >
+					<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/errors/">About ERRORS</a></h1>
+                      <div class="entry__content"> <b> Some of the errors encountered during recompilations are:</b>
+ <ol> 
+   <li> In the beginning, <b>Docker file</b> should be named as Dockerfile not <b>DockerFile</b>, or any other format, as I have faced this error. </li>
+   <li> Then I have encountered an error that it was taking too long to install required files to build an image. It took about 2 hours but then ended up with <b> an error for loading meta data for docker</b> . The reason was poor internet connection.As I have switched between WIFI and 4G, the issue resolved. </li>
+   <li>Then while emulating, I have got an error: <b>“qemu: could not load PC-BIOS” </b>. Then to solve that, I have reinstalled QEMU, and then issue was resolved.</li>
+</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-17T11:27:11&#43;05:00">April 17, 2021</time>
+	</div>
+</article>
+					</div>
+<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/errors/">AboutSome More Errors</a></h1>
+                      <div class="entry__content"> <b> Some of the errors encountered during recompilations are:</b>
+ <ol>
+   <li>	Meanwhile, I kept having the error: <b>“Unable to find image” </b> But this issue was resolved after rerunning the docker or sometimes PC needs to be refreshed.</li>
+  <li>	Then during recompilations of the code for getting others issues resolved, there was an error that was basically a syntax error, and was somehow in Makefile, and Linker.ld. But it was not so clear that where was the error, because it was not visible, thus not accessible to figure out where that error lies. So, to resolve that Makefile code was pasted from GitHub, and then it really worked.</li>
+   </div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-04-17T11:27:11&#43;05:00">April 17, 2021</time>
+	</div>
+</article>
+					</div>
+			</div>
+	</main>
+	
+
+	</div>
+	<footer class="footer">
+<div class="footer__social social">
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="mailto:fatimazahid014@gmail.com">
+			<svg class="social__icon" aria-label="Email" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M299 268l124 106c-4 4-10 7-17 7H106c-7 0-13-3-17-7l124-106 43 38 43-38zm-43 13L89 138c4-4 10-7 17-7h300c7 0 13 3 17 7L256 281zm54-23l121-105v208L310 258zM81 153l121 105L81 361V153z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/https://www.facebook.com/fatima.zahid.908347">
+			<svg class="social__icon" aria-label="Facebook" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M330 512V322h64l9-74h-73v-47c0-22 6-36 37-36h39V99c-7-1-30-3-57-3-57 0-95 34-95 98v54h-64v74h64v190z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/FatimaZ27741323">
+			<svg class="social__icon" aria-label="Twitter" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://t.me/Fatima%20Zahid">
+			<svg class="social__icon" aria-label="Telegram" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M199 404c-11 0-10-4-13-14l-32-105 245-144"/><path d="M199 404c7 0 11-4 16-8l45-43-56-34"/><path d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fatimazahid014">
+			<svg class="social__icon" aria-label="Instagram" role="img" width="32" height="32" viewBox="0 0 512 512"><g fill="none" stroke-width="29"><rect height="296" rx="78" width="296" x="108" y="108"/><circle cx="256" cy="256" r="69"/></g><circle cx="343" cy="169" r="19"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/username">
+			<svg class="social__icon" aria-label="Pinterest" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="m265 65c-104 0-157 75-157 138 0 37 14 71 45 83 5 2 10 0 12-5l3-18c2-6 1-7-2-12-9-11-15-24-15-43 0-56 41-106 108-106 60 0 92 37 92 85 0 64-28 116-70 116-23 0-40-18-34-42 6-27 19-57 19-77 0-18-9-34-30-34-24 0-42 25-42 58 0 20 7 34 7 34l-29 120a249 249 0 0 0 2 86l3-1c2-3 31-37 40-72l16-61c7 15 29 28 53 28 71 0 119-64 119-151 0-66-56-126-140-126z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://vk.com/username">
+			<svg class="social__icon" aria-label="VK" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M274 363c5-1 14-3 14-15 0 0-1-30 13-34s32 29 51 42c14 9 25 8 25 8l51-1s26-2 14-23c-1-2-9-15-39-42-31-30-26-25 11-76 23-31 33-50 30-57-4-7-20-6-20-6h-57c-6 0-9 1-12 6 0 0-9 25-21 45-25 43-35 45-40 42-9-5-7-24-7-37 0-45 7-61-13-65-13-2-59-4-73 3-7 4-11 11-8 12 3 0 12 1 17 7 8 13 9 75-2 81-15 11-53-62-62-86-2-6-5-7-12-9H79c-6 0-15 1-11 13 27 56 83 193 184 192z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/Fatima%20Zahid">
+			<svg class="social__icon" aria-label="LinkedIn" role="img" width="32" height="32" viewBox="0 0 512 512"><circle cx="142" cy="138" r="37"/><path stroke-width="66" d="M244 194v198M142 194v198"/><path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://github.com/FatimaZahid">
+			<svg class="social__icon" aria-label="Github" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://gitlab.com/username">
+			<svg class="social__icon" aria-label="Gitlab" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M450 282l-22-67-43-133c-2-7-12-7-14 0l-43.3 133H184.3L141 82c-2-7-12-7-14 0L84 215l-22 67c-2 6 0 13 6 16l188 137 188-137c6-3 8-10 6-16z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/numberid">
+			<svg class="social__icon" aria-label="Stack Overflow" role="img" width="32" height="32" viewBox="0 0 512 512"><g stroke-width="30"><path fill="none" d="M125 297v105h241V297"/><path d="M170 341h150m-144-68l148 31M199 204l136 64m-95-129l115 97M293 89l90 120"/></g></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://some.instance/@username">
+			<svg class="social__icon" aria-label="Mastodon" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M416 197c0-74-49-96-49-96-42-22-172-24-222 0 0 0-49 22-49 96v59c2 72 14 145 81 162 33 9 89 18 140-6l-2-27s-27 7-58 7c-74 2-67-39-70-52 0 0 51 17 137 6 42-6 80-32 85-56 8-38 7-93 7-93zm-58 96h-35v-88c0-18-8-27-23-27-18 0-27 11-27 33v47h-34v-47c0-22-9-33-27-33-15 0-23 9-23 27v88h-35v-91c0-18 5-60 52-60 39 0 50 37 50 37s10-37 50-37c45 0 52 42 52 60v91z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://medium.com/@username">
+			<svg class="social__icon" aria-label="Medium" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M125 173c0-4-2-9-5-11l-31-38v-6h98l75 166 67-166h93v6l-27 26c-2 1-3 4-3 7v190c0 3 1 6 3 8l27 25v6H289v-6l27-26c3-3 3-4 3-8V193l-76 192h-10l-88-192v129c-1 5 1 11 5 15l35 43v5H85v-5l35-43c4-4 6-10 5-15z"/></svg>
+		</a>
+</div>
+	<div class="footer__copyright">© 2021 Binario. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
+</footer>
+<script src="/js/custom.js"></script>
+</body>
+</html>
